@@ -1,0 +1,9 @@
+/* todolist.css */
+
+/* Estilos anteriores */
+
+/* Nuevo estilo para las tareas completadas */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}

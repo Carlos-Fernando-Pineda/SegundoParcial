@@ -1,0 +1,21 @@
+/* Estilo CSS para la galería de imágenes (gallery.css) */
+#Imágen-thumbnails {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+#Imágen-thumbnails li {
+    cursor: pointer;
+}
+
+#image-display {
+    margin-top: 20px;
+}
+
+#image-display img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

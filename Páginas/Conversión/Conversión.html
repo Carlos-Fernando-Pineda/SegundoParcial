@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de Temperatura</title>
+    <script type="module" src="/Páginas/Conversión/Conversión.js"></script>
+</head>
+<body>
+    <h1>Conversión de Temperatura</h1>
+    <div class="conversion-container">
+        <input type="number" id="input-temperature" placeholder="Ingrese temperatura" required>
+        <select id="input-unit">
+            <option value="celsious">Celsious</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <p>es equivalente a</p>
+        <span id="result">0.00</span>
+        <select id="output-unit">
+            <option value="celsious">Celsious</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button id="convert-button">Convertir</button>
+    </div>
+</body>
+</html>
